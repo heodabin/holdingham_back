@@ -8,9 +8,9 @@
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://${DB_url}:${DB_port}/test?characterEncoding=UTF-8&serverTimezone=UTC
-    username: ${DB_name}
-    password: ${DB_password}
+    url: svc.sel4.cloudtype.app://${DB_url}:31310/test?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 1204
   # JPA 설정
   jpa:
     hibernate:
